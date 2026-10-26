@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday 🌻</title>
+<meta name="theme-color" content="#FFD95A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="sf" viewBox="-50 -50 100 100"></symbol></defs></svg>
+<div id="fx" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="brand" href="#home" aria-label="Home">🌻</a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  <nav id="menu" aria-label="Main">
+    <a href="#home">Home</a><a href="#wishes">Wishes</a><a href="#garden">Sunflower Garden</a><a href="#memories">Memories</a><a href="#letter">Birthday Letter</a><a href="#surprise">Surprise</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="drift" data-n="14"></div>
+  <svg class="sf corner tl sway" aria-hidden="true"><use href="#sf"/></svg>
+  <svg class="sf corner br sway" aria-hidden="true"><use href="#sf"/></svg>
+  <div class="wrap center">
+    <svg class="sf hero-sf sway" role="img" aria-label="A swaying sunflower"><use href="#sf"/></svg>
+    <h1>Happy Birthday, <span class="fname"></span>! 🌻</h1>
+    <h2 class="sub">A Little Sunshine, Just for You</h2>
+    <p class="lead">Today is all about celebrating the wonderful person you are. Here's a little surprise filled with sunshine, smiles, and birthday wishes made just for you.</p>
+    <div class="btns">
+      <button class="btn" id="openSurprise">Open Your Surprise 🎁</button>
+      <button class="btn alt" id="magicBtn">Make Some Birthday Magic ✨</button>
+    </div>
+  </div>
+  <a class="scroll" href="#gift" aria-label="Scroll down"><span></span></a>
+</section>
+
+<section id="gift" class="sec">
+  <div class="wrap center">
+    <h2>A Little Sunshine, Just for You 🌻</h2>
+    <button class="gift" id="giftBtn" aria-expanded="false" aria-label="Tap to open your gift">
+      <span class="lid"><i class="bow"></i><svg class="sf" aria-hidden="true"><use href="#sf"/></svg></span>
+      <span class="box"><i class="rib"></i></span>
+      <span class="bouquet" aria-hidden="true">🌻🌻🌻</span>
+    </button>
+    <p class="hint" id="giftHint">Tap the gift to open it</p>
+    <div class="reveal" id="giftCard"><div class="card paper">
+      <p>Some people bring sunshine into the lives of others without even realizing it. Your kindness, support, and beautiful personality are qualities worth celebrating. May your life always be filled with happiness, warmth, and countless beautiful moments. Happy Birthday! 🌻💛</p>
+      <button class="btn small" id="giftClose">Close Gift</button>
+    </div></div>
+  </div>
+</section>
+
+<section id="letter" class="sec soft">
+  <div class="wrap center">
+    <h2>A Few Words for Someone Special 💌</h2>
+    <div class="env" id="env" aria-hidden="true"><i></i></div>
+    <button class="btn" id="letterBtn" aria-expanded="false" aria-controls="letterWrap">Open Your Birthday Letter 💌</button>
+    <div class="reveal" id="letterWrap"><div class="letter"><svg class="sf deco sway" aria-hidden="true"><use href="#sf"/></svg><div id="letterBody"></div></div></div>
+  </div>
+</section>
+
+<section id="wishes" class="sec">
+  <div class="wrap">
+    <h2 class="center">Birthday Wishes for You</h2>
+    <div class="grid" id="wishGrid">
+      <article class="card wish g1"><span class="ic">🌻</span><h3>Happiness</h3><p>May your days be filled with genuine smiles, peaceful moments, and happiness that stays.</p></article>
+      <article class="card wish g2"><span class="ic">✨</span><h3>Success</h3><p>May your dreams bloom beautifully, your efforts bring wonderful results, and your journey take you toward success.</p></article>
+      <article class="card wish g3"><span class="ic">💛</span><h3>Friendship</h3><p>May you always be surrounded by people who appreciate your kindness and support you in becoming the best version of yourself.</p></article>
+      <article class="card wish g4"><span class="ic">☀️</span><h3>Positivity</h3><p>May you find light and hope even on difficult days, just as a sunflower turns toward the sunshine.</p></article>
+      <article class="card wish g5"><span class="ic">🌼</span><h3>Beautiful Memories</h3><p>May this year bring unforgettable experiences, wonderful moments, and memories worth keeping forever.</p></article>
+      <article class="card wish g6"><span class="ic">🦋</span><h3>New Beginnings</h3><p>May every new chapter bring exciting opportunities, meaningful experiences, and countless reasons to smile.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec soft">
+  <div class="wrap">
+    <h2 class="center">Things Worth Celebrating About You 🌷</h2>
+    <div class="grid two">
+      <div class="ap"><button aria-expanded="false">Your Kind Heart</button><div class="pan"><p>Kindness often goes unnoticed by the person giving it, but it is never unnoticed by the people receiving it. Your warmth makes the world a gentler place.</p></div></div>
+      <div class="ap"><button aria-expanded="false">Your Supportive Nature</button><div class="pan"><p>Having someone who encourages others and offers support when it matters is a beautiful quality. Never underestimate the difference your kindness can make.</p></div></div>
+      <div class="ap"><button aria-expanded="false">Your Positive Energy</button><div class="pan"><p>Positivity is contagious. The light you carry helps the people around you feel a little more hopeful and a little more at ease.</p></div></div>
+      <div class="ap"><button aria-expanded="false">The Wonderful Person You Are</button><div class="pan"><p>Simply being yourself is a gift to the people who know you. Today is a reminder to celebrate exactly who you are.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="garden" class="sec garden">
+  <div class="drift" data-n="8"></div>
+  <div class="wrap center">
+    <h2>A Little Garden of Birthday Wishes 🌻</h2>
+    <div class="plot" id="plot" aria-hidden="true"></div>
+    <button class="btn" id="bloomBtn">Make the Garden Bloom ✨</button>
+    <p class="wishline reveal" id="gardenMsg"><span class="inner">May you keep growing, keep smiling, and keep finding beautiful reasons to look forward to tomorrow. May your life be filled with sunshine, happiness, and wonderful opportunities. 🌻💛</span></p>
+  </div>
+</section>
+
+<section id="memories" class="sec">
+  <div class="wrap center">
+    <h2>Little Moments, Beautiful Memories 📸</h2>
+    <div class="photos" id="photos"></div>
+  </div>
+</section>
+
+<section class="sec soft">
+  <div class="wrap center">
+    <h2>Make a Little Birthday Wish 🕯️</h2>
+    <div class="cake" id="cake">
+      <div class="candles"><i><b></b></i><i><b></b></i><i><b></b></i></div>
+      <div class="tier t1"></div><div class="tier t2"><em>🌻</em><em>🌻</em><em>🌻</em></div>
+      <div class="plate"></div>
+    </div>
+    <div class="btns">
+      <button class="btn" id="blowBtn">Blow Out the Candles ✨</button>
+      <button class="btn alt" id="relightBtn">Relight the Candles</button>
+    </div>
+    <p class="wishline reveal" id="cakeMsg"><span class="inner">May all the beautiful wishes in your heart find their way into your life. Happy Birthday! 🎂🌻</span></p>
+  </div>
+</section>
+
+<section id="surprise" class="sec">
+  <div class="wrap center">
+    <h2>One More Little Surprise 💛</h2>
+    <div class="card paper wishcard"><svg class="sf deco sway" aria-hidden="true"><use href="#sf"/></svg><p id="wishText" aria-live="polite">Tap the button to reveal a birthday wish.</p>
+      <div class="btns"><button class="btn" id="wishBtn">Reveal a Birthday Wish ✨</button><button class="btn alt" id="copyBtn">Copy Wish 📋</button></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec soft">
+  <div class="wrap">
+    <h2 class="center">A Little Celebration of You ✨</h2>
+    <ol class="tl-list">
+      <li><span>🌱</span><div><h3>A New Chapter Begins</h3><p>A fresh page, ready for beautiful stories.</p></div></li>
+      <li><span>🌠</span><div><h3>New Dreams and Opportunities</h3><p>Every dream is worth chasing, and new doors are waiting.</p></div></li>
+      <li><span>😊</span><div><h3>More Reasons to Smile</h3><p>Small joys and big happiness, all along the way.</p></div></li>
+      <li><span>🌻</span><div><h3>A Year Full of Possibilities</h3><p>Twelve months of sunshine, growth, and wonder.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section id="final" class="final">
+  <div class="drift" data-n="16"></div>
+  <div class="wrap center">
+    <div class="row" id="finalFlowers" aria-hidden="true"><svg class="sf sway"><use href="#sf"/></svg><svg class="sf sway big"><use href="#sf"/></svg><svg class="sf sway"><use href="#sf"/></svg></div>
+    <h2>Keep Blooming, Keep Shining! 🌻</h2>
+    <p class="lead">May your life be filled with sunshine, your heart with happiness, and your journey with beautiful beginnings.</p>
+    <p class="lead">Keep growing, keep smiling, and never stop being the wonderful person you are.</p>
+    <p class="lead"><strong>Happy Birthday! 💛🌻</strong></p>
+    <button class="btn big" id="finalBtn">Celebrate One More Time! 🎉</button>
+    <p class="wishline reveal" id="finalMsg" aria-live="polite"><span class="inner" id="finalWish"></span></p>
+  </div>
+</section>
+</main>
+
+<footer><p>Made with care and lots of birthday wishes 💛🌻</p><p class="yr">© <span id="year"></span></p></footer>
+
+<button class="music" id="musicBtn" aria-pressed="false" aria-label="Play music"><span id="musicIcon">🎵</span><i class="eq"><b></b><b></b><b></b></i></button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+  <button class="lbx" id="lbClose" aria-label="Close photo viewer">✕</button>
+  <button class="lbn prev" id="lbPrev" aria-label="Previous photo">‹</button>
+  <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="lbn next" id="lbNext" aria-label="Next photo">›</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
